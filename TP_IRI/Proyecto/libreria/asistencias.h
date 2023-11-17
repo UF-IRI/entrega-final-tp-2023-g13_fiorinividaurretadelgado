@@ -1,11 +1,7 @@
 #ifndef ASISTENCIAS_H
 #define ASISTENCIAS_H
 
-#include <iostream>
-#include <ctime>
-#include "libreria.h"
 #include "gimnasio.h"
-#include "archivos.h" //llamo donde estan declarados mis structs
 
 /*enum agregarInscripciones { ErrNoSeAgrego= -1, ExitoAgregado=0}; //enum de mis errores
 typedef enum agregarInscripciones eAgregarInscripciones;*/

@@ -1,13 +1,9 @@
 #include <iostream>
-using namespace std;
-#include <ctime>
-#include "gimnasio.h"
-#include "asistencias.h"
 #include <fstream>
 #include <sstream>
-#include <cstdlib>
-#include <iostream>
+#include "asistencias.h"
 
+using namespace std;
 
 int main() {
     Gimnasio gym;
@@ -70,7 +66,7 @@ int main() {
 
     cout << "Bienvenido a gimnasio Musculito. Ingrese los datos pedidos a continuación:" << endl;
     cout << "Ingrese su Id de cliente:" << endl;
-    u_int idClienteIng = rand() %  249;
+    u_int idClienteIng = rand() %  251;
 
     if(RevisarCliente(idClienteIng, gym)) //corrobora que el cliente exista y tenga la cuota al dia
     {

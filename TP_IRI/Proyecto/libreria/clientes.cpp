@@ -58,7 +58,7 @@ u_int crearIdCliente(string nombreIng, string apellidoIng, string emailIng, stri
     aux->idCliente=idCreado;
     aux->fechaNac=fechaNacIng;
 
-    nuevoCliente(gym, aux);
+    nuevoCliente(gym, *aux);
     delete aux;
     return idCreado;
 }

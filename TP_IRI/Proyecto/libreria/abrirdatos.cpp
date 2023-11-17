@@ -1,10 +1,5 @@
 #include "archivos.h"
-#include "gimnasio.h"
 #include "asistencias.h"
-#include <fstream>
-#include <sstream>
-#include <iostream>
-using namespace std;
 
 #define ArchivoClase "C:\Users\emmif\source\Dataset TP (1)"
 
@@ -126,18 +121,18 @@ void leerArchivoBinario(MisAsistencias& misAsistencias) {
         cout <<"Error al abrir el archivo: " << endl;
     }
 
-    while(!eof.archivo()){
+    while(!archivo.eof()){
 
         Asistencia nuevaAsistencia;
 
-        archivo.read((char*)& nuevaAsistencia.idCliente,sizeof(u_int);
-        archivo.read((char*)& nuevaAsistencia.cantInscripciones,sizeof(u_int);
+        archivo.read((char*)& nuevaAsistencia.idCliente,sizeof(u_int));
+        archivo.read((char*)& nuevaAsistencia.cantInscripciones,sizeof(u_int));
 
-        Inscripcion * auxInscripciones= Inscripcion[nuevaAsistencia.cantInscripciones];
+        Inscripcion * auxInscripciones= new Inscripcion[nuevaAsistencia.cantInscripciones];
 
         for(u_int i=0;i<nuevaAsistencia.cantInscripciones;i++){
-        archivo.read((char*)& auxInscripciones->idClase,sizeof(u_int);
-        archivo.read((char*)& auxInscripciones->fechaInscripcion,sizeof(time_t);}
+            archivo.read((char*)& auxInscripciones->idClase,sizeof(u_int));
+            archivo.read((char*)& auxInscripciones->fechaInscripcion,sizeof(time_t));
 
         nuevaAsistencia.CursosInscriptos = auxInscripciones;
 

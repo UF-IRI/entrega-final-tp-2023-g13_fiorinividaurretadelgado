@@ -1,7 +1,6 @@
 #ifndef CLIENTES_H
 #define CLIENTES_H
 
-#include <iostream>
 #include <ctime>
 #include "libreria.h"
 

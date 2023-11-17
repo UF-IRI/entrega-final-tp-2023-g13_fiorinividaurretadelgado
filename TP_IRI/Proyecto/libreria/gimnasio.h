@@ -1,12 +1,9 @@
 #ifndef GIMNASIO_H
 #define GIMNASIO_H
 
-#include <iostream>
 #include <ctime>
 #include "clientes.h"
-#include "clases.h"
 #include "archivos.h"
-#include "libreria.h"
 
 using namespace std;
 
