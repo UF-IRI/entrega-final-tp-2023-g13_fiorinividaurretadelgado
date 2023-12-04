@@ -118,11 +118,53 @@ compiler_clean: compiler_moc_predefs_clean
 
 ####### Compile
 
-debug/main.o: ../../Proyecto/main/main.cpp ../../Proyecto/libreria/archivos.h \
-		../../Proyecto/libreria/libreria.h \
+debug/main.o: ../../Proyecto/main/main.cpp ../../Proyecto/libreria/abrirArchivos.h \
 		../../Proyecto/libreria/gimnasio.h \
-		../../Proyecto/libreria/clientes.h \
-		../../Proyecto/libreria/clases.h
+		../../Proyecto/libreria/asistencias_copy.h \
+		../../Proyecto/libreria/libreria.h \
+		../../Proyecto/libreria/libreria_global.h \
+		C:/Qt/6.5.2/mingw_64/include/QtCore/qglobal.h \
+		C:/Qt/6.5.2/mingw_64/include/QtCore/qtversionchecks.h \
+		C:/Qt/6.5.2/mingw_64/include/QtCore/qconfig.h \
+		C:/Qt/6.5.2/mingw_64/include/QtCore/qtcore-config.h \
+		C:/Qt/6.5.2/mingw_64/include/QtCore/qtconfigmacros.h \
+		C:/Qt/6.5.2/mingw_64/include/QtCore/qtcoreexports.h \
+		C:/Qt/6.5.2/mingw_64/include/QtCore/qtpreprocessorsupport.h \
+		C:/Qt/6.5.2/mingw_64/include/QtCore/qtnoop.h \
+		C:/Qt/6.5.2/mingw_64/include/QtCore/qsystemdetection.h \
+		C:/Qt/6.5.2/mingw_64/include/QtCore/qprocessordetection.h \
+		C:/Qt/6.5.2/mingw_64/include/QtCore/qcompilerdetection.h \
+		C:/Qt/6.5.2/mingw_64/include/QtCore/qassert.h \
+		C:/Qt/6.5.2/mingw_64/include/QtCore/qtypes.h \
+		C:/Qt/6.5.2/mingw_64/include/QtCore/qtclasshelpermacros.h \
+		C:/Qt/6.5.2/mingw_64/include/QtCore/qtversion.h \
+		C:/Qt/6.5.2/mingw_64/include/QtCore/qtypeinfo.h \
+		C:/Qt/6.5.2/mingw_64/include/QtCore/qcontainerfwd.h \
+		C:/Qt/6.5.2/mingw_64/include/QtCore/qsysinfo.h \
+		C:/Qt/6.5.2/mingw_64/include/QtCore/qlogging.h \
+		C:/Qt/6.5.2/mingw_64/include/QtCore/qflags.h \
+		C:/Qt/6.5.2/mingw_64/include/QtCore/qcompare_impl.h \
+		C:/Qt/6.5.2/mingw_64/include/QtCore/qatomic.h \
+		C:/Qt/6.5.2/mingw_64/include/QtCore/qbasicatomic.h \
+		C:/Qt/6.5.2/mingw_64/include/QtCore/qatomic_cxx11.h \
+		C:/Qt/6.5.2/mingw_64/include/QtCore/qgenericatomic.h \
+		C:/Qt/6.5.2/mingw_64/include/QtCore/qconstructormacros.h \
+		C:/Qt/6.5.2/mingw_64/include/QtCore/qdarwinhelpers.h \
+		C:/Qt/6.5.2/mingw_64/include/QtCore/qexceptionhandling.h \
+		C:/Qt/6.5.2/mingw_64/include/QtCore/qforeach.h \
+		C:/Qt/6.5.2/mingw_64/include/QtCore/qtdeprecationmarkers.h \
+		C:/Qt/6.5.2/mingw_64/include/QtCore/qttypetraits.h \
+		C:/Qt/6.5.2/mingw_64/include/QtCore/qfunctionpointer.h \
+		C:/Qt/6.5.2/mingw_64/include/QtCore/qglobalstatic.h \
+		C:/Qt/6.5.2/mingw_64/include/QtCore/qmalloc.h \
+		C:/Qt/6.5.2/mingw_64/include/QtCore/qminmax.h \
+		C:/Qt/6.5.2/mingw_64/include/QtCore/qnumeric.h \
+		C:/Qt/6.5.2/mingw_64/include/QtCore/qoverload.h \
+		C:/Qt/6.5.2/mingw_64/include/QtCore/qswap.h \
+		C:/Qt/6.5.2/mingw_64/include/QtCore/qtenvironmentvariables.h \
+		C:/Qt/6.5.2/mingw_64/include/QtCore/qtresource.h \
+		C:/Qt/6.5.2/mingw_64/include/QtCore/qttranslation.h \
+		C:/Qt/6.5.2/mingw_64/include/QtCore/qversiontagging.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\main.o ..\..\Proyecto\main\main.cpp
 
 ####### Install

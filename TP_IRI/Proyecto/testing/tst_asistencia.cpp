@@ -1,6 +1,5 @@
 //test asistencia:
 #include <catch2/catch.hpp>
-#include "archivos.h"
 
 TEST_CASE("My first test with Catch2", "[fancy]")
 {

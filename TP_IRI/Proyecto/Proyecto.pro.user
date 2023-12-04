@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 11.0.2, 2023-11-17T11:47:07. -->
+<!-- Written by QtCreator 11.0.2, 2023-12-04T11:12:11. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -238,13 +238,11 @@
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
     <value type="bool" key="PE.EnvironmentAspect.PrintOnRun">false</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">main2</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/pilud/OneDrive/Documents/GitHub/entrega-final-tp-2023-g13_fiorinividaurretadelgado/TP_IRI/Proyecto/main/main.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">C:/Users/pilud/OneDrive/Documents/GitHub/entrega-final-tp-2023-g13_fiorinividaurretadelgado/TP_IRI/Proyecto/main/main.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/pilud/OneDrive/Documents/Favaloro/Redes e internet/TP_IRI/Proyecto/main/main.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">C:/Users/pilud/OneDrive/Documents/Favaloro/Redes e internet/TP_IRI/Proyecto/main/main.pro</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
-    <value type="bool" key="RunConfiguration.UseTerminal">true</value>
     <value type="QString" key="RunConfiguration.WorkingDirectory.default">C:/Users/pilud/OneDrive/Documents/Favaloro/Redes e internet/TP_IRI/build-Proyecto-Desktop_Qt_6_5_2_MinGW_64_bit-Debug/main</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.1">
@@ -255,9 +253,8 @@
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
     <value type="bool" key="PE.EnvironmentAspect.PrintOnRun">false</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">testing2</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/pilud/OneDrive/Documents/GitHub/entrega-final-tp-2023-g13_fiorinividaurretadelgado/TP_IRI/Proyecto/testing/testing.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">C:/Users/pilud/OneDrive/Documents/GitHub/entrega-final-tp-2023-g13_fiorinividaurretadelgado/TP_IRI/Proyecto/testing/testing.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/pilud/OneDrive/Documents/Favaloro/Redes e internet/TP_IRI/Proyecto/testing/testing.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">C:/Users/pilud/OneDrive/Documents/Favaloro/Redes e internet/TP_IRI/Proyecto/testing/testing.pro</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
